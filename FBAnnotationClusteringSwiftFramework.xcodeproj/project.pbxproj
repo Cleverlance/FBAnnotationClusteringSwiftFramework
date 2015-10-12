@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FC7FC451BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC7FC441BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC7FC4C1BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC7FC411BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFramework.framework */; settings = {ASSET_TAGS = (); }; };
 		2FC7FC511BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC501BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFrameworkTests.swift */; };
-		2FC7FC621BCBDCCD00E84A19 /* FBAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC5B1BCBDCCD00E84A19 /* FBAnnotation.swift */; settings = {ASSET_TAGS = (); }; };
-		2FC7FC631BCBDCCD00E84A19 /* FBAnnotationCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC5C1BCBDCCD00E84A19 /* FBAnnotationCluster.swift */; settings = {ASSET_TAGS = (); }; };
-		2FC7FC641BCBDCCD00E84A19 /* FBBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC5D1BCBDCCD00E84A19 /* FBBoundingBox.swift */; settings = {ASSET_TAGS = (); }; };
-		2FC7FC651BCBDCCD00E84A19 /* FBAnnotationClusterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC5E1BCBDCCD00E84A19 /* FBAnnotationClusterView.swift */; settings = {ASSET_TAGS = (); }; };
-		2FC7FC661BCBDCCD00E84A19 /* FBClusteringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC5F1BCBDCCD00E84A19 /* FBClusteringManager.swift */; settings = {ASSET_TAGS = (); }; };
-		2FC7FC671BCBDCCD00E84A19 /* FBQuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC601BCBDCCD00E84A19 /* FBQuadTree.swift */; settings = {ASSET_TAGS = (); }; };
-		2FC7FC681BCBDCCD00E84A19 /* FBQuadTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC611BCBDCCD00E84A19 /* FBQuadTreeNode.swift */; settings = {ASSET_TAGS = (); }; };
+		2FC7FC701BCBE8E300E84A19 /* FBAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC691BCBE8E300E84A19 /* FBAnnotation.swift */; settings = {ASSET_TAGS = (); }; };
+		2FC7FC711BCBE8E300E84A19 /* FBAnnotationCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC6A1BCBE8E300E84A19 /* FBAnnotationCluster.swift */; settings = {ASSET_TAGS = (); }; };
+		2FC7FC721BCBE8E300E84A19 /* FBAnnotationClusterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC6B1BCBE8E300E84A19 /* FBAnnotationClusterView.swift */; settings = {ASSET_TAGS = (); }; };
+		2FC7FC731BCBE8E300E84A19 /* FBBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC6C1BCBE8E300E84A19 /* FBBoundingBox.swift */; settings = {ASSET_TAGS = (); }; };
+		2FC7FC741BCBE8E300E84A19 /* FBClusteringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC6D1BCBE8E300E84A19 /* FBClusteringManager.swift */; settings = {ASSET_TAGS = (); }; };
+		2FC7FC751BCBE8E300E84A19 /* FBQuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC6E1BCBE8E300E84A19 /* FBQuadTree.swift */; settings = {ASSET_TAGS = (); }; };
+		2FC7FC761BCBE8E300E84A19 /* FBQuadTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FC6F1BCBE8E300E84A19 /* FBQuadTreeNode.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,18 +30,17 @@
 
 /* Begin PBXFileReference section */
 		2FC7FC411BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBAnnotationClusteringSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FC7FC441BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAnnotationClusteringSwiftFramework.h; sourceTree = "<group>"; };
 		2FC7FC461BCBDCA500E84A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FC7FC4B1BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBAnnotationClusteringSwiftFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC7FC501BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBAnnotationClusteringSwiftFrameworkTests.swift; sourceTree = "<group>"; };
 		2FC7FC521BCBDCA500E84A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FC7FC5B1BCBDCCD00E84A19 /* FBAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnnotation.swift; sourceTree = "<group>"; };
-		2FC7FC5C1BCBDCCD00E84A19 /* FBAnnotationCluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnnotationCluster.swift; sourceTree = "<group>"; };
-		2FC7FC5D1BCBDCCD00E84A19 /* FBBoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBBoundingBox.swift; sourceTree = "<group>"; };
-		2FC7FC5E1BCBDCCD00E84A19 /* FBAnnotationClusterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnnotationClusterView.swift; sourceTree = "<group>"; };
-		2FC7FC5F1BCBDCCD00E84A19 /* FBClusteringManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBClusteringManager.swift; sourceTree = "<group>"; };
-		2FC7FC601BCBDCCD00E84A19 /* FBQuadTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBQuadTree.swift; sourceTree = "<group>"; };
-		2FC7FC611BCBDCCD00E84A19 /* FBQuadTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBQuadTreeNode.swift; sourceTree = "<group>"; };
+		2FC7FC691BCBE8E300E84A19 /* FBAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnnotation.swift; sourceTree = "<group>"; };
+		2FC7FC6A1BCBE8E300E84A19 /* FBAnnotationCluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnnotationCluster.swift; sourceTree = "<group>"; };
+		2FC7FC6B1BCBE8E300E84A19 /* FBAnnotationClusterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnnotationClusterView.swift; sourceTree = "<group>"; };
+		2FC7FC6C1BCBE8E300E84A19 /* FBBoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBBoundingBox.swift; sourceTree = "<group>"; };
+		2FC7FC6D1BCBE8E300E84A19 /* FBClusteringManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBClusteringManager.swift; sourceTree = "<group>"; };
+		2FC7FC6E1BCBE8E300E84A19 /* FBQuadTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBQuadTree.swift; sourceTree = "<group>"; };
+		2FC7FC6F1BCBE8E300E84A19 /* FBQuadTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBQuadTreeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +83,13 @@
 		2FC7FC431BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFramework */ = {
 			isa = PBXGroup;
 			children = (
-				2FC7FC441BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFramework.h */,
-				2FC7FC5B1BCBDCCD00E84A19 /* FBAnnotation.swift */,
-				2FC7FC5C1BCBDCCD00E84A19 /* FBAnnotationCluster.swift */,
-				2FC7FC5D1BCBDCCD00E84A19 /* FBBoundingBox.swift */,
-				2FC7FC5E1BCBDCCD00E84A19 /* FBAnnotationClusterView.swift */,
-				2FC7FC5F1BCBDCCD00E84A19 /* FBClusteringManager.swift */,
-				2FC7FC601BCBDCCD00E84A19 /* FBQuadTree.swift */,
-				2FC7FC611BCBDCCD00E84A19 /* FBQuadTreeNode.swift */,
+				2FC7FC691BCBE8E300E84A19 /* FBAnnotation.swift */,
+				2FC7FC6A1BCBE8E300E84A19 /* FBAnnotationCluster.swift */,
+				2FC7FC6B1BCBE8E300E84A19 /* FBAnnotationClusterView.swift */,
+				2FC7FC6C1BCBE8E300E84A19 /* FBBoundingBox.swift */,
+				2FC7FC6D1BCBE8E300E84A19 /* FBClusteringManager.swift */,
+				2FC7FC6E1BCBE8E300E84A19 /* FBQuadTree.swift */,
+				2FC7FC6F1BCBE8E300E84A19 /* FBQuadTreeNode.swift */,
 				2FC7FC461BCBDCA500E84A19 /* Info.plist */,
 			);
 			path = FBAnnotationClusteringSwiftFramework;
@@ -114,7 +111,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC7FC451BCBDCA500E84A19 /* FBAnnotationClusteringSwiftFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,13 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC7FC661BCBDCCD00E84A19 /* FBClusteringManager.swift in Sources */,
-				2FC7FC651BCBDCCD00E84A19 /* FBAnnotationClusterView.swift in Sources */,
-				2FC7FC671BCBDCCD00E84A19 /* FBQuadTree.swift in Sources */,
-				2FC7FC621BCBDCCD00E84A19 /* FBAnnotation.swift in Sources */,
-				2FC7FC681BCBDCCD00E84A19 /* FBQuadTreeNode.swift in Sources */,
-				2FC7FC641BCBDCCD00E84A19 /* FBBoundingBox.swift in Sources */,
-				2FC7FC631BCBDCCD00E84A19 /* FBAnnotationCluster.swift in Sources */,
+				2FC7FC741BCBE8E300E84A19 /* FBClusteringManager.swift in Sources */,
+				2FC7FC701BCBE8E300E84A19 /* FBAnnotation.swift in Sources */,
+				2FC7FC751BCBE8E300E84A19 /* FBQuadTree.swift in Sources */,
+				2FC7FC731BCBE8E300E84A19 /* FBBoundingBox.swift in Sources */,
+				2FC7FC761BCBE8E300E84A19 /* FBQuadTreeNode.swift in Sources */,
+				2FC7FC721BCBE8E300E84A19 /* FBAnnotationClusterView.swift in Sources */,
+				2FC7FC711BCBE8E300E84A19 /* FBAnnotationCluster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +403,7 @@
 				2FC7FC571BCBDCA500E84A19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FC7FC581BCBDCA500E84A19 /* Build configuration list for PBXNativeTarget "FBAnnotationClusteringSwiftFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +412,7 @@
 				2FC7FC5A1BCBDCA500E84A19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

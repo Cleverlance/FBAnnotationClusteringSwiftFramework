@@ -9,15 +9,15 @@
 import Foundation
 import MapKit
 
-public protocol FBClusteringManagerDelegate {
+protocol FBClusteringManagerDelegate {
     
     func cellSizeFactorForCoordinator(coordinator:FBClusteringManager) -> CGFloat
     
 }
 
-public class FBClusteringManager : NSObject {
+class FBClusteringManager : NSObject {
     
-    public var delegate:FBClusteringManagerDelegate? = nil
+    var delegate:FBClusteringManagerDelegate? = nil
     
     var tree:FBQuadTree? = nil
     
@@ -28,17 +28,17 @@ public class FBClusteringManager : NSObject {
         super.init()
     }
     
-    public init(annotations: [MKAnnotation]){
+    init(annotations: [MKAnnotation]){
         super.init()
         addAnnotations(annotations)
     }
     
-    public func setAnnotations(annotations:[MKAnnotation]){
+    func setAnnotations(annotations:[MKAnnotation]){
         tree = nil
         addAnnotations(annotations)
     }
     
-    public func addAnnotations(annotations:[MKAnnotation]){
+    func addAnnotations(annotations:[MKAnnotation]){
         if tree == nil {
             tree = FBQuadTree()
         }
@@ -50,7 +50,7 @@ public class FBClusteringManager : NSObject {
         lock.unlock()
     }
     
-    public func clusteredAnnotationsWithinMapRect(rect:MKMapRect, withZoomScale zoomScale:Double) -> [MKAnnotation]{
+    func clusteredAnnotationsWithinMapRect(rect:MKMapRect, withZoomScale zoomScale:Double) -> [MKAnnotation]{
         
         
         let cellSize:CGFloat = FBClusteringManager.FBCellSizeForZoomScale(MKZoomScale(zoomScale))
@@ -137,7 +137,7 @@ public class FBClusteringManager : NSObject {
         return annotations
     }
     
-    public func displayAnnotations(annotations: [MKAnnotation], onMapView mapView:MKMapView){
+    func displayAnnotations(annotations: [MKAnnotation], onMapView mapView:MKMapView){
         
         dispatch_async(dispatch_get_main_queue())  {
 
