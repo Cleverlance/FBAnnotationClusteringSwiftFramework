@@ -6,11 +6,7 @@
 	<dict>
 		<key>Headers/FBAnnotationClusteringSwiftFramework-Swift.h</key>
 		<data>
-		pFqEf2gV+o0LQQ6UGQE8jMteE/o=
-		</data>
-		<key>Headers/FBAnnotationClusteringSwiftFramework.h</key>
-		<data>
-		zncfYaDQjc0MPKmlHXht7UFYyks=
+		5rKbju6NYpoOkx95zLvq4dg8gTw=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,7 +18,7 @@
 		</data>
 		<key>Modules/FBAnnotationClusteringSwiftFramework.swiftmodule/arm.swiftmodule</key>
 		<data>
-		LjHDjGTEVKvy8woEVe5ksiPP7+s=
+		yYQKhhWS1KIexDQxQfwWF2YZVtw=
 		</data>
 		<key>Modules/FBAnnotationClusteringSwiftFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,22 +26,18 @@
 		</data>
 		<key>Modules/FBAnnotationClusteringSwiftFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		j3NpP5LJVgq+/WKkzMvy6apRjtk=
+		icYUE2czySsf87YMIPLyhlu6Cvg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Vu6CiG8UqlvhO+kHSRAEnUf0MgU=
+		7+rDyrdsZ7bBztYnAs2N0TasOdg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/FBAnnotationClusteringSwiftFramework-Swift.h</key>
 		<data>
-		pFqEf2gV+o0LQQ6UGQE8jMteE/o=
-		</data>
-		<key>Headers/FBAnnotationClusteringSwiftFramework.h</key>
-		<data>
-		zncfYaDQjc0MPKmlHXht7UFYyks=
+		5rKbju6NYpoOkx95zLvq4dg8gTw=
 		</data>
 		<key>Modules/FBAnnotationClusteringSwiftFramework.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -53,7 +45,7 @@
 		</data>
 		<key>Modules/FBAnnotationClusteringSwiftFramework.swiftmodule/arm.swiftmodule</key>
 		<data>
-		LjHDjGTEVKvy8woEVe5ksiPP7+s=
+		yYQKhhWS1KIexDQxQfwWF2YZVtw=
 		</data>
 		<key>Modules/FBAnnotationClusteringSwiftFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -61,11 +53,11 @@
 		</data>
 		<key>Modules/FBAnnotationClusteringSwiftFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		j3NpP5LJVgq+/WKkzMvy6apRjtk=
+		icYUE2czySsf87YMIPLyhlu6Cvg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Vu6CiG8UqlvhO+kHSRAEnUf0MgU=
+		7+rDyrdsZ7bBztYnAs2N0TasOdg=
 		</data>
 	</dict>
 	<key>rules</key>

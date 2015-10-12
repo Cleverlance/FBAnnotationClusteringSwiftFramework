@@ -86,22 +86,8 @@ typedef int swift_int2  __attribute__((__ext_vector_type__(2)));
 typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
-@import ObjectiveC;
-@import MapKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
-@protocol MKAnnotation;
-@class MKMapView;
-
-SWIFT_CLASS("_TtC36FBAnnotationClusteringSwiftFramework19FBClusteringManager")
-@interface FBClusteringManager : NSObject
-- (nonnull instancetype)initWithAnnotations:(NSArray<id <MKAnnotation>> * __nonnull)annotations OBJC_DESIGNATED_INITIALIZER;
-- (void)setAnnotations:(NSArray<id <MKAnnotation>> * __nonnull)annotations;
-- (void)addAnnotations:(NSArray<id <MKAnnotation>> * __nonnull)annotations;
-- (NSArray<id <MKAnnotation>> * __nonnull)clusteredAnnotationsWithinMapRect:(MKMapRect)rect withZoomScale:(double)zoomScale;
-- (void)displayAnnotations:(NSArray<id <MKAnnotation>> * __nonnull)annotations onMapView:(MKMapView * __nonnull)mapView;
-@end
-
 #pragma clang diagnostic pop
