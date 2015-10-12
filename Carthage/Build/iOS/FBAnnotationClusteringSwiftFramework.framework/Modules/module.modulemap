@@ -1,0 +1,10 @@
+framework module FBAnnotationClusteringSwiftFramework {
+  umbrella header "FBAnnotationClusteringSwiftFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module FBAnnotationClusteringSwiftFramework.Swift {
+    header "FBAnnotationClusteringSwiftFramework-Swift.h"
+}
